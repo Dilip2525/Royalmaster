@@ -1,0 +1,170 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Royal Master</title>
+</head>
+<body background="C:\Users\BRIJESH\Pictures\images.jpg">
+    <header>
+        <h1><center><b><u>Royal Master</u></font></h1>
+        <p>Your ultimate study destination</center></p>
+    </header>
+
+    <main>
+        <section id="pdfs">
+            <h2><font color=maroon>Studying PDFs</h2>
+            <p>Explore our collection of study materials in PDF format.</p>
+            <button class="button" onclick="viewPDFs()">View PDFs</button>
+            <form id="pdfForm" enctype="multipart/form-data">
+                <label for="pdfFile">Add PDF:</label>
+                <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+                <button type="button" class="button" onclick="addPDF()">Add PDF</button>
+            </form>
+        </section>
+
+        <section id="videos">
+            <h2>Watch Educational Videos</h2>
+            <p>Enhance your learning experience with our educational videos.</p>
+            <button class="button" onclick="watchVideos()">Watch Videos</button>
+            <form id="videoForm" enctype="multipart/form-data">
+                <label for="videoFile">Add Video:</label>
+                <input type="file" id="videoFile" name="videoFile" accept=".mp4, .avi" required>
+                <button type="button" class="button" onclick="addVideo()">Add Video</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Royal Master</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Royal Master</title>
+</head>
+<body>
+
+
+    <main>
+        <!-- ... (Existing sections) ... -->
+
+        <section id="subscription">
+            <h2>Subscription Plans</h2>
+            <p>Unlock premium study materials with our subscription plans.</p>
+            
+            <div class="subscription-plan" id="plan1">
+                <h3>Plan 1</h3>
+                <p>Access budget-friendly study materials,<br> including PDFs and notes.</p>
+                <p>Free Mock Test Included</p>
+                <p>Pricing:75/month</p>
+                <button class="button" onclick="subscribe('plan1')">Subscribe</button>
+            </div>
+
+            <div class="subscription-plan" id="plan2">
+                <h3>Plan 2</h3>
+                <p>Access PDF notes, AI teaching videos, free mock tests, and 2 doubt sessions in 2 weeks.</p>
+                <p>Pricing: ?2500/year</p>
+                <button class="button" onclick="subscribe('plan2')">Subscribe</button>
+            </div>
+        </section>
+
+        <section id="payment-form" style="display: none;">
+            <h2>Payment Information</h2>
+            <p>Select a payment option:</p>
+            <label for="paytm"><input type="radio" id="paytm" name="payment-option"> Paytm</label>
+            <label for="credit-card"><input type="radio" id="credit-card" name="payment-option"> Credit Card</label>
+            <label for="debit-card"><input type="radio" id="debit-card" name="payment-option"> Debit Card</label>
+            <button class="button" onclick="makePayment()">Proceed to Payment</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Royal Master</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light Blue Background */
+            color: #004d40; /* Dark Green Text */
+        }
+
+        header {
+            background-color: #004d40; /* Dark Green Header */
+            color: #e0f7fa; /* Light Blue Header Text */
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00796b; /* Teal Navigation Bar */
+            color: #ffffff; /* White Navigation Text */
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff; /* White Navigation Text */
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #004d40; /* Dark Green Footer */
+            color: #e0f7fa; /* Light Blue Footer Text */
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Your Website!</h2>
+        <p>This is a sample section. Replace it with your content.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
